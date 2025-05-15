@@ -24,6 +24,7 @@ There are total 5 functions, 6 including main, in this project. Each of the func
     8. Science 
     9. Society & Culture
     10. Sports & Literature
+  <br>
 Each of these options, starting with their corresponding numbers, are stored in dictionaries where the options displayed to the user are the keys. The values are the very specific words which the api accepts as one of the  parameters. So the function receives the input from user as a number and converts it into it's corresponding index and returns the value of dictionary as string. The function uses infinite while loop which breaks only when the correct option is selected. Any incorrect option rises a ValueError which is handled by prompting the user, "Invalid Input!" along with continuation of the infinite while loop.
 
 3. get_difficulty():
@@ -31,6 +32,7 @@ Each of these options, starting with their corresponding numbers, are stored in 
     1. easy
     2. medium 
     3. hard
+    <br>
 The user has to choose one of the options among the given ones. Incorrect option raises a ValueError which prompts the user, "Invalid Input!" along with the continuation of infinite while loop. Only the correct option will return the corresponding string for difficulty and break the loop.
 
 4. randomize_answers():
